@@ -1,0 +1,211 @@
+/*
+Theme Name: Présentation d'entreprise
+Theme URI:Ludus1B.com
+Author:Anthony Lamour
+Description:Theme CSS site web Présentation d'entreprise
+Version:1.0
+License:Ludus1B
+License URI:Ludus1B.com
+Text Domain:Ludus1B
+*/
+
+*{/*suppression des marges*/
+	
+	margin:0 auto;
+	padding:0 px;
+	
+}
+
+body {
+	
+	/*image de fond*/
+	background:url("image/HU_fond.jpg") no-repeat bottom right fixed;
+	/*taille du fond*/
+	background-size:100% 100%;
+	/*couleur de background noir*/
+	background-color:black;
+	/*couleur du texte rouge*/
+	color:red;
+	/*texte centré*/
+	margin:0 auto;
+	text-align:center;
+		
+}
+
+body section{
+	
+	/*bordure des section blanche*/
+	border:white inset 1px;
+	/*taille des section*/
+	width:50%;
+	height:50%;
+	/*couleur de background noir*/
+	background-color:black;
+	
+}
+
+h3{
+	
+	/*soulignage des titre h3*/
+	text-decoration:underline;
+	
+}
+
+body p{
+	
+	/*alignement du texte à gauche*/
+	text-align:left;
+	
+}
+
+h1, h2{
+	
+	/*bordure des titre h1 et h2*/
+	border:white inset 1px;
+	/*taille des titres h1 et h2*/
+	width:50%;
+	height:50%;
+	/*couleur de background noir pour les titres h1 et h2*/
+	background-color:black;
+	
+}
+
+li img{
+	
+	/*taille des images du menu*/
+	width:50px;
+	height:50px;
+	
+}
+
+li{
+	
+	/*enlever les point de la liste*/
+	list-style-type:none;
+	/*alignement du menu à gauche*/
+	text-align:left;
+	
+}
+
+nav{
+	
+	/*position du menu*/
+	float:left;
+	position:fixed;
+	margin: 0 auto;
+	/*taille du menu*/
+	width:100px;
+	/*bordure blanche du menu*/
+	border: white inset 1px;
+	
+}
+
+/*début mise en page du formulaire*/
+form{
+	
+	padding:0 auto;
+	overflow:hidden;
+	
+}
+
+fieldset{
+	
+	padding:0 20px 20px 20px;
+	margin-bottom:10px;
+	border:none;
+	
+}
+
+
+label{
+	
+	margin-top:10px;
+	color:red;
+	
+}
+
+label.inline{
+	
+	margin-right:50px;
+	
+}
+
+input, textarea{
+	
+	padding:3px;
+	border:red solid 3px;
+	box-shadow: 10px 12px 5px #6b0505 ;
+	overflow:hidden;
+	width:50%;
+
+}
+
+
+input[type=submit], input[type=reset]{
+	
+	width:100px;
+	margin-left:5px;
+	cursor:pointer;
+	border:red inset 5px;
+	box-shadow:none;
+	
+}
+
+/*fin mise en page du formulaire*/
+
+footer{
+	
+	/*alignement du footer à gauche*/
+	text-align:left;
+	
+}
+
+#logo{
+	
+	/*position du logo*/
+	float:left;
+	/*taille du logo*/
+	width:50px;
+	height:50px;
+	
+}
+
+.portrait{
+	
+	/*taille des images de la page membre*/
+	width:50%;
+	height:50%;
+	
+}
+
+#chrono{
+	
+	/*taille de la chronologie*/
+	width:95%;
+	
+}
+
+video{
+	
+	/*taille des sections des clips*/
+	max-height:75%;
+	max-width:80%;
+	
+}
+
+.videos{
+	
+	/*taille des vidéos*/
+	max-height:75%;
+	max-width:80%;
+	
+}
+
+header img{
+	
+	/*taille de l'image au dessus du titre prncipale de chaque page*/
+	border:white inset 1px;
+	width:50%;
+	max-height:50%;
+	
+}
