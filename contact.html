@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<!--titre de la page-->
+		<title>Nous contacter</title>
+		<link rel="stylesheet"type="text/css"href="style.css">
+	</head>
+
+	<body onload=document.getElementById('nom').focus()> <!--curseur automatiquement possitionné sur le premier input-->
+
+		<header>
+			<img src="image/Hollywood_Undead.jpg"/><br/><br/>
+			<!--grand titre de la page-->
+			<h1>Nous contacter</h1><br/>
+		</header>
+
+		<nav>
+			<ul>
+				<!--menu de la page-->
+				<p>Menu :</p>
+				<li><a href="index.html" title="Home"><img src="image/charlie_scene.jpg"/></a></li>
+				<li><a href="partenaire.html" title="Membres"><img src="image/Johnny_3_Tears_mask.png"/></a></li>
+				<li><a href="contact.html" title="contact"><img src="image/J-Dog_mask.png"/></a></li>
+				<li><a href="projet.html" title="clips"><img src="image/Da_Kurlzz_mask.png"/></a></li>
+			</ul>
+		</nav>
+		
+		<h2>Pour nous contacter veuillez remplir le formulaire suivant</h2><br/>
+		<!--formulaire-->
+		<section>
+			<article>
+
+				<form method="POST" action="#">
+				
+					<!--required sert à obliger de remplir les inputs-->
+
+					<fieldset>
+					<br/>
+					<label for="nom">Votre nom </label>: <br/><input type="text" name="nom" id="nom" placeholder="Nom" size="30" maxlength="20" required/>
+					<br/>
+					<br/>
+					<label for="prenom">Votre prénom </label>: <br/><input type="text" name="prenom" id="prenom" placeholder="Prenom" size="30" maxlength="20" required/>
+
+					<br/>
+					<br/>
+					<br/>
+					
+					<label for="entreprise">Nom de votre entreprise </label>: <br/><input type="texte" name="entreprise" id="entreprise" placeholder="Nom de votre entreprise" size="50" required/>
+
+					<br/>
+					<br/>
+					<br/>
+					
+					<label for="sujet">Sujet de votre message </label>: <br/><input type="texte" name="sujtet" id="sujet" placeholder="Sujet du message" required/>
+					
+					<br/>
+					<br/>
+					<br/>
+
+
+					<label for="Message">Message </label>: <br/><textarea name="message" id="message" placeholder="Votre message" required></textarea> 
+
+					<br/>
+					<br/>
+					<br/>
+
+					<input type="submit" name="envoyer" value="Envoyer">
+
+				</form>
+
+			</article>
+		</section>
+
+		<footer>
+			<!--logo du groupe-->
+			<img src="image/HU_logo.jpeg" id="logo"/>
+		</footer>
+
+	</body>
+
+</html>
